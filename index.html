@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 <head>
-      <title>CIBERSEGURIDAD</title>
+    <title>CIBERSEGURIDAD</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-	 body {
+		body {
             background-image: url("dvn6.jpg"); 
             background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
             background-repeat: no-repeat; /* Evita que se repita */
@@ -12,22 +13,70 @@
             color: black; /* Color de texto para que resalte sobre el fondo */
         }
 
-	h1 {
-            text-align: center; /* Centra el título */
-        }
+		h1 {
+				text-align: center; /* Centra el título */
+			}
         
-ul {
-    margin: 0;
-    padding-left: 20px; /* ajusta este valor para mover la lista más cerca del borde */
-    list-style-type: disc;
-}
+		ul {
+			margin: 0;
+			padding-left: 20px; /* ajusta este valor para mover la lista más cerca del borde */
+			list-style-type: disc;
+		}
 
-ul ul {
-    margin: 0;
-    padding-left: 20px; /* sublista más cerca del borde de la lista principal */
-    list-style-type: circle;
-}
+		ul ul {
+			margin: 0;
+			padding-left: 20px; /* sublista más cerca del borde de la lista principal */
+			list-style-type: circle;
+		}
 
+		h2.centrado {
+				text-align: center;
+			}
+
+		table 
+		{
+			margin-left: auto;
+			margin-right: auto;
+			border-collapse: collapse;
+			width: 70%;
+			text-align: justify;
+		}
+
+		.section{
+			padding: 60px 20px;
+			text-align: center;
+		}
+
+		.card-container{
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			flex-wrap: wrap;
+		}
+
+		.card h3 {
+			margin: 0;
+			color: #333;
+		}
+
+		.card p {
+			color: #555;
+		}
+
+		.card{
+			background-color: white;    
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgb(0,0,0,0.5) ;
+			width: 280px;
+			text-align: center;    
+			transition: transform .3s ease, box-shadow .5s ease;
+		}
+
+		.card:hover{
+			transform: translate(-10px);
+			box-shadow: 0 8px 16px rgb(0,0,0,0.3);
+		}
 	</style>
 </head>	
 
@@ -38,160 +87,156 @@ ul ul {
 	<p>La ciberseguridad es el conjunto de prácticas, medidas y tecnologías que se usan para proteger computadoras, redes, sistemas, aplicaciones 
 	y datos frente a ataques, accesos no autorizados o daños.</p>
 
-<table>
-	<tr>
-		<td>
-			<p><strong>En otras palabras, es como un escudo digital que evita que:</strong></p>
-			<ul>
-				<li>Te roben información (datos personales, contraseñas, dinero).</li>
-				<li>Hackeen sistemas o páginas web.</li>
-				<li>Se metan virus o malware en dispositivos.</li>
-				<li>Se interrumpan servicios importantes (como bancos, hospitales o empresas).</p></li>
-			
-			</ul>	
-				<p><strong>Objetivos principales de la ciberseguridad (tríada CIA):</strong></p>
-			<ul>
-				<li>Confidencialidad → Solo las personas autorizadas pueden acceder a la información.</li>
-			
-				<li>Integridad → Los datos deben mantenerse correctos y sin alteraciones no autorizadas.</li>
-			
-				<li>Disponibilidad → Que los sistemas y la información estén siempre accesibles cuando se necesiten.</li>
-			</ul>	
-		</td>
-		<td>
-			<img src="10241279.jpg" alt="Imagen de ciberseguridad" width="300" style="float: right; margin: 10px;">		
-		</td>
-	</tr>
-</table>
-	
-	<p><strong><h3>Ejemplo del día a día:</h3></strong></p>
-<ul>
-	<li>Cuando usas una contraseña fuerte → aplicas ciberseguridad.</li>
-	<li>Cuando una empresa pone antivirus, firewalls y copias de seguridad → está aplicando ciberseguridad.</li>
-	<li>Cuando revisas un correo y detectas que es phishing → aplicas ciberseguridad.</li>	
-	<li>Si bloqueas tu computadora cuando te alejas → proteges la información.</li>
-</ul>
-	
-	<p><strong><h3>Principales riesgos</h3></strong></p>
-<ul>
-	<li>Phishing: correos falsos que buscan engañar para robar datos.</li>
-	<li>Malware y virus: programas dañinos que infectan el sistema.</li>
-	<li>Contraseñas débiles: fáciles de adivinar.</li>
-	<li>Redes Wi-Fi públicas: pueden ser inseguras.</li>
-	<li>Usuarios descuidados: compartir información sin pensar en la seguridad.</li>
-</ul>
-
-	<p><strong><h3>Consejos prácticos</h3></strong></p>
-	
-<ul>
-	<li>Usa contraseñas seguras: largas, con números, letras y símbolos.</li>
-	<li>No abras correos sospechosos ni hagas clic en enlaces raros.</li>
-	<li>Evita conectarte a Wi-Fi públicas para trabajar.</li>
-	<li>Bloquea tu PC cuando te alejes del escritorio.</li>
-	<li>Haz copias de seguridad regularmente.</li>
-	<li>Mantén actualizado tu antivirus y software.</li>
-	<li>Verifica que las páginas web tengan https:// antes de ingresar datos.</li>
-	<li>Nunca compartas información sensible sin autorización.</li>	
-</ul>
-
-	<p><strong><h3>Qué hacer ante incidentes</h3></strong></p>
-<ul>
-<li><strong>Si recibes un correo sospechoso:</strong>
-	<ul>
-		 	<li>No abras enlaces ni descargues archivos adjuntos.</li>
-            <li>Revisa el remitente cuidadosamente.</li>
-            <li>Marca el correo como spam/phishing.</li>
-            <li>Notifica al área de TI o seguridad.</li>
-	</ul>
-<li><strong>Si hiciste clic en un link malicioso:</strong></li>
-	<ul>
-			<li>No ingreses datos personales ni contraseñas.</li>
-			<li>Cierra inmediatamente la página.</li>
-			<li>Ejecuta un análisis de virus/antivirus en tu dispositivo.</li>
-			<li>Cambia tus contraseñas por seguridad.</li>
-			<li>Reporta el incidente a TI.</li>
-	</ul>
-<li><strong>Si descargas un archivo sospechoso:</strong></li>
-	<ul>
-		<li>No lo abras.</li>
-		<li>Escanea el archivo con antivirus.</li>
-		<li>Informa al equipo de TI.</li>
-	</ul>
-</ul>
-	
-<style>
-    h2.centrado {
-        text-align: center;
-    }
-	table 
-	{
-		margin-left: auto;
-		margin-right: auto;
-		border-collapse: collapse;
-		width: 70%;
-		text-align: justify;
-	}
-	
-</style>
-	
-<h2 class="centrado">Ejemplos de ataques cibernéticos en Ecuador</h2>
-	
-<table border="1" cellpadding="8" cellspacing="0">
-	<thead>
-		<tr style="background-color: #6da8b6; color: white;">
-			<th>Año / fecha aproximada</th>
-	        <th>Objetivo / víctima</th>
-	        <th>Tipo de ataque / modalidad</th>
-	        <th>Detalles / consecuencias</th>
-		</tr>	
-	</thead>
-	<tbody>  
+	<table>
 		<tr>
-			<td>2011 – junio</td>
-	        <td>Sitio web de la Presidencia de Ecuador & periódico El Ciudadano</td>
-	        <td>Defacement / hackeo web</td>
-	        <td>Hackers (Latin Hack Team) suplantaron la portada con mensajes contra la corrupción. No hubo daño a bases de datos.</td>
+			<td>
+				<img src="10241279.jpg" alt="Imagen de ciberseguridad" width="300" style="float: right; margin: 10px;">		
+			</td>
+			<td>
+				<p><strong>En otras palabras, es como un escudo digital que evita que:</strong></p>
+				<ul>
+					<li>Te roben información (datos personales, contraseñas, dinero).</li>
+					<li>Hackeen sistemas o páginas web.</li>
+					<li>Se metan virus o malware en dispositivos.</li>
+					<li>Se interrumpan servicios importantes (como bancos, hospitales o empresas).</p></li>
+				
+				</ul>	
+					<p><strong>Objetivos principales de la ciberseguridad (tríada CIA):</strong></p>
+				<ul>
+					<li>Confidencialidad → Solo las personas autorizadas pueden acceder a la información.</li>
+				
+					<li>Integridad → Los datos deben mantenerse correctos y sin alteraciones no autorizadas.</li>
+				
+					<li>Disponibilidad → Que los sistemas y la información estén siempre accesibles cuando se necesiten.</li>
+				</ul>	
+			</td>			
 		</tr>
-	    <tr>
-	        <td>2019 – abril</td>
-	        <td>Varios organismos del Estado (Presidencia, Banco Central, SRI, etc.)</td>
-	        <td>Ola masiva de ciberataques / DDoS / intentos de intrusión</td>
-	        <td>Tras el retiro del asilo a Assange, Ecuador sufrió más de 40 millones de ataques; algunos portales quedaron inaccesibles.</td>
-	    </tr>
-	    <tr>
-	        <td>2021 (aprox.)</td>
-	        <td>CNT EP (Corporación Nacional de Telecomunicaciones)</td>
-	        <td>Ransomware / ataque informático</td>
-	        <td>Servicios de atención al cliente y procesos internos afectados; se declaró “emergencia institucional”.</td>
-	    </tr>
-	    <tr>
-	        <td>2022 – abril</td>
-	        <td>Municipio de Quito</td>
-	        <td>Ransomware</td>
-	        <td>Un virus tipo “BlackCat” afectó entre 15 % y 20 % de la información, dejándola cifrada e inaccesible temporalmente.</td>
-	    </tr>
-	    <tr>
-	        <td>2023 – agosto</td>
-	        <td>Sistema de voto en el exterior (CNE)</td>
-	        <td>Ataque a plataforma electoral / DDoS</td>
-	        <td>La plataforma de voto telemático sufrió problemas de acceso por múltiples ataques. No se comprometieron votos confirmados.</td>
-	    </tr>
-	    <tr>
-	        <td>2025 – febrero</td>
-	        <td>Asamblea Nacional / Legislatura</td>
-	        <td>Ciberataque / intento de acceso</td>
-	        <td>Hackers intentaron acceder a información confidencial y afectaron temporalmente la página web.</td>
-	    </tr>
-	    <tr>
-	        <td>Indeterminado (operativo 2024)</td>
-	        <td>Entidades bancarias y públicas</td>
-	        <td>Red organizada de hackers / intrusión</td>
-	        <td>El operativo “Impacto Inicial” desarticuló una red que vulneraba sistemas de entidades públicas y bancarias como SENESCYT y ANT.</td>
-	    </tr>
-	</tbody>    
-</table>
+	</table>
 
-<p><h3><strong>Señales de Alerta</strong></h3></p>
+	<section>
+		<div class="card-container">
+			<div class="card">
+				<p><strong><h3>Ejemplo del día a día:</h3></strong></p>
+				<ul>
+					<li>Cuando usas una contraseña fuerte → aplicas ciberseguridad.</li>
+					<li>Cuando una empresa pone antivirus, firewalls y copias de seguridad → está aplicando ciberseguridad.</li>
+					<li>Cuando revisas un correo y detectas que es phishing → aplicas ciberseguridad.</li>	
+					<li>Si bloqueas tu computadora cuando te alejas → proteges la información.</li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<p><strong><h3>Principales riesgos</h3></strong></p>
+				<ul>
+					<li>Phishing: correos falsos que buscan engañar para robar datos.</li>
+					<li>Malware y virus: programas dañinos que infectan el sistema.</li>
+					<li>Contraseñas débiles: fáciles de adivinar.</li>
+					<li>Redes Wi-Fi públicas: pueden ser inseguras.</li>
+					<li>Usuarios descuidados: compartir información sin pensar en la seguridad.</li>
+				</ul>
+			</div>
+
+			<div class="card">
+				<p><strong><h3>Consejos prácticos</h3></strong></p>
+				<ul>
+					<li>Usa contraseñas seguras: largas, con números, letras y símbolos.</li>
+					<li>No abras correos sospechosos ni hagas clic en enlaces raros.</li>
+					<li>Evita conectarte a Wi-Fi públicas para trabajar.</li>
+					<li>Bloquea tu PC cuando te alejes del escritorio.</li>
+					<li>Haz copias de seguridad regularmente.</li>
+					<li>Mantén actualizado tu antivirus y software.</li>
+					<li>Verifica que las páginas web tengan https:// antes de ingresar datos.</li>
+					<li>Nunca compartas información sensible sin autorización.</li>	
+				</ul>
+			</div>
+
+			<div class="card">
+				<p><strong><h3>Qué hacer ante incidentes</h3></strong></p>
+				<ul>
+					<li><strong>Si recibes un correo sospechoso:</strong>
+						<ul>
+								<li>No abras enlaces ni descargues archivos adjuntos.</li>
+								<li>Revisa el remitente cuidadosamente.</li>
+								<li>Marca el correo como spam/phishing.</li>
+								<li>Notifica al área de TI o seguridad.</li>
+						</ul>
+					<li><strong>Si hiciste clic en un link malicioso:</strong></li>
+						<ul>
+								<li>No ingreses datos personales ni contraseñas.</li>
+								<li>Cierra inmediatamente la página.</li>
+								<li>Ejecuta un análisis de virus/antivirus en tu dispositivo.</li>
+								<li>Cambia tus contraseñas por seguridad.</li>
+								<li>Reporta el incidente a TI.</li>
+						</ul>
+					<li><strong>Si descargas un archivo sospechoso:</strong></li>
+						<ul>
+							<li>No lo abras.</li>
+							<li>Escanea el archivo con antivirus.</li>
+							<li>Informa al equipo de TI.</li>
+						</ul>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<h2 class="centrado">Ejemplos de ataques cibernéticos en Ecuador</h2>
+		
+	<table border="1" cellpadding="8" cellspacing="0">
+		<thead>
+			<tr style="background-color: #6da8b6; color: white;">
+				<th>Año / fecha aproximada</th>
+				<th>Objetivo / víctima</th>
+				<th>Tipo de ataque / modalidad</th>
+				<th>Detalles / consecuencias</th>
+			</tr>	
+		</thead>
+		<tbody>  
+			<tr>
+				<td>2011 – junio</td>
+				<td>Sitio web de la Presidencia de Ecuador & periódico El Ciudadano</td>
+				<td>Defacement / hackeo web</td>
+				<td>Hackers (Latin Hack Team) suplantaron la portada con mensajes contra la corrupción. No hubo daño a bases de datos.</td>
+			</tr>
+			<tr>
+				<td>2019 – abril</td>
+				<td>Varios organismos del Estado (Presidencia, Banco Central, SRI, etc.)</td>
+				<td>Ola masiva de ciberataques / DDoS / intentos de intrusión</td>
+				<td>Tras el retiro del asilo a Assange, Ecuador sufrió más de 40 millones de ataques; algunos portales quedaron inaccesibles.</td>
+			</tr>
+			<tr>
+				<td>2021 (aprox.)</td>
+				<td>CNT EP (Corporación Nacional de Telecomunicaciones)</td>
+				<td>Ransomware / ataque informático</td>
+				<td>Servicios de atención al cliente y procesos internos afectados; se declaró “emergencia institucional”.</td>
+			</tr>
+			<tr>
+				<td>2022 – abril</td>
+				<td>Municipio de Quito</td>
+				<td>Ransomware</td>
+				<td>Un virus tipo “BlackCat” afectó entre 15 % y 20 % de la información, dejándola cifrada e inaccesible temporalmente.</td>
+			</tr>
+			<tr>
+				<td>2023 – agosto</td>
+				<td>Sistema de voto en el exterior (CNE)</td>
+				<td>Ataque a plataforma electoral / DDoS</td>
+				<td>La plataforma de voto telemático sufrió problemas de acceso por múltiples ataques. No se comprometieron votos confirmados.</td>
+			</tr>
+			<tr>
+				<td>2025 – febrero</td>
+				<td>Asamblea Nacional / Legislatura</td>
+				<td>Ciberataque / intento de acceso</td>
+				<td>Hackers intentaron acceder a información confidencial y afectaron temporalmente la página web.</td>
+			</tr>
+			<tr>
+				<td>Indeterminado (operativo 2024)</td>
+				<td>Entidades bancarias y públicas</td>
+				<td>Red organizada de hackers / intrusión</td>
+				<td>El operativo “Impacto Inicial” desarticuló una red que vulneraba sistemas de entidades públicas y bancarias como SENESCYT y ANT.</td>
+			</tr>
+		</tbody>    
+	</table>
+
+	<p><h3><strong>Señales de Alerta</strong></h3></p>
 	<ul>
 		<li>Correos sospechosos → remitentes extraños, errores ortográficos, enlaces raros o urgencia excesiva.</li>
 		<li>Solicitudes inusuales de contraseñas o datos personales.</li>
@@ -202,118 +247,48 @@ ul ul {
 		<li>Archivos cifrados o inaccesibles sin tu autorización (señal de ransomware).</li>
 		<li>Consumo inusual de batería o datos en celulares.</li>
 	</ul>
-<p><h3><strong>Buenas prácticas de ciberseguridad</strong></h3></p>
+
+	<p><h3><strong>Buenas prácticas de ciberseguridad</strong></h3></p>
 	<ul>
 		 <li>🔑 <strong>Contraseñas seguras y únicas:</strong> Usa algo como <em>Jf!92#CasaVerde</em>. 
-    ❌ No uses la misma clave en correo y banco.</li>
+		❌ No uses la misma clave en correo y banco.</li>
 
-    <li>🔒 <strong>Autenticación de dos factores (2FA):</strong> Activa códigos de verificación extra en tu correo. 
-    Así, aunque te roben la clave, no entran.</li>
+		<li>🔒 <strong>Autenticación de dos factores (2FA):</strong> Activa códigos de verificación extra en tu correo. 
+		Así, aunque te roben la clave, no entran.</li>
 
-    <li>💻 <strong>Bloquea tu equipo al dejarlo solo:</strong> Presiona <em>Windows + L</em> si vas a levantarte. 
-    ❌ No dejes documentos abiertos.</li>
+		<li>💻 <strong>Bloquea tu equipo al dejarlo solo:</strong> Presiona <em>Windows + L</em> si vas a levantarte. 
+		❌ No dejes documentos abiertos.</li>
 
-    <li>📧 <strong>No abras enlaces o adjuntos sospechosos:</strong> Si te llega una “factura pendiente” que no pediste, 
-    ❌ no la abras.</li>
+		<li>📧 <strong>No abras enlaces o adjuntos sospechosos:</strong> Si te llega una “factura pendiente” que no pediste, 
+		❌ no la abras.</li>
 
-    <li>🌐 <strong>Evita redes Wi-Fi públicas:</strong> En cafés o aeropuertos alguien puede espiar tu conexión. 
-    ✅ Usa VPN si es urgente.</li>
+		<li>🌐 <strong>Evita redes Wi-Fi públicas:</strong> En cafés o aeropuertos alguien puede espiar tu conexión. 
+		✅ Usa VPN si es urgente.</li>
 
-    <li>🔄 <strong>Mantén todo actualizado:</strong> Activa actualizaciones automáticas para navegador, sistema y antivirus.</li>
+		<li>🔄 <strong>Mantén todo actualizado:</strong> Activa actualizaciones automáticas para navegador, sistema y antivirus.</li>
 
-    <li>📂 <strong>Haz copias de seguridad:</strong> Guarda documentos en Google Drive o disco externo cada semana.</li>
+		<li>📂 <strong>Haz copias de seguridad:</strong> Guarda documentos en Google Drive o disco externo cada semana.</li>
 
-    <li>🔔 <strong>Reporta incidentes:</strong> Si tu PC se pone rara o recibes un correo sospechoso, avisa al área de TI.</li>
+		<li>🔔 <strong>Reporta incidentes:</strong> Si tu PC se pone rara o recibes un correo sospechoso, avisa al área de TI.</li>
 	</ul>
 
-
-<p><h3><strong>Recursos adicionales</strong></h3></p>
+	<p><h3><strong>Recursos adicionales</strong></h3></p>
 	
-<div style="border: 2px solid #6da8b6; border-radius: 10px; padding: 15px; background-color: #d2dcde; width: 70%; margin: auto;">
+	<div style="border: 2px solid #6da8b6; border-radius: 10px; padding: 15px; background-color: #d2dcde; width: 70%; margin: auto;">
 
-    <p><strong>Recursos confiables en línea:</strong></p>
-    <ul>
-        <li><a href="https://www.incibe.es" target="_blank">INCIBE – Instituto Nacional de Ciberseguridad (España)</a></li>
-        <li><a href="https://www.telecomunicaciones.gob.ec/por-primera-vez-ecuador-cuenta-con-su-estrategia-nacional-de-ciberseguridad/" target="_blank">Centro de Respuesta a Incidentes en Ecuador</a></li>
-        <li><a href="https://www.cisa.gov" target="_blank">CISA – Cybersecurity & Infrastructure Security Agency (EE. UU.)</a></li>
-    </ul>
+		<p><strong>Recursos confiables en línea:</strong></p>
+		<ul>
+			<li><a href="https://www.incibe.es" target="_blank">INCIBE – Instituto Nacional de Ciberseguridad (España)</a></li>
+			<li><a href="https://www.telecomunicaciones.gob.ec/por-primera-vez-ecuador-cuenta-con-su-estrategia-nacional-de-ciberseguridad/" target="_blank">Centro de Respuesta a Incidentes en Ecuador</a></li>
+			<li><a href="https://www.cisa.gov" target="_blank">CISA – Cybersecurity & Infrastructure Security Agency (EE. UU.)</a></li>
+		</ul>
 
-    <p><strong>Manuales / guías prácticas:</strong></p>
-    <ul>
-        <li>Guía básica de protección contra phishing.</li>
-        <li>Pasos para crear contraseñas seguras.</li>
-        <li>Manual de respuesta rápida ante incidentes.</li>
-    </ul>
-
-</div>
-
-	
-
+		<p><strong>Manuales / guías prácticas:</strong></p>
+		<ul>
+			<li>Guía básica de protección contra phishing.</li>
+			<li>Pasos para crear contraseñas seguras.</li>
+			<li>Manual de respuesta rápida ante incidentes.</li>
+		</ul>
+	</div>
 </body>
 </html>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
